@@ -1,9 +1,7 @@
 # Convergence of the D1Q2 scheme as a function of the relaxation parameter s.
-#
 #   julia --project=examples examples/convergence.jl
-#
 # Expected: order 2 for s = 2 (the O(dx) term of the equivalent equation carries
-# the factor 1/s - 1/2, which vanishes), order 1 otherwise.
+
 
 using D1Q2Burgers
 using Plots
